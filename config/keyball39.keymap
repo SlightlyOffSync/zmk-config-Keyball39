@@ -116,7 +116,7 @@
 
         jump_word_right {
             bindings = <&kp RA(RIGHT)>;
-            key-positions = <17 17 18>;
+            key-positions = <17 18>;
             layers = <1>;
             require-prior-idle-ms = <150>;
             slow-release;
