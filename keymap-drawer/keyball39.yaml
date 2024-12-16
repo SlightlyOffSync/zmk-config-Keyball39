@@ -365,7 +365,7 @@ combos:
 - p: [16, 17]
   k: AltGr+$$mdi:arrow-left-bold$$
   l: [NAV]
-- p: [17, 17, 18]
+- p: [17, 18]
   k: AltGr+$$mdi:arrow-right-bold$$
   l: [NAV]
 - p: [18, 19]
