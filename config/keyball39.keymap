@@ -118,7 +118,7 @@
         smart_mouse: smart_mouse {
             compatible = "zmk,behavior-auto-layer";
             #binding-cells = <1>;
-            continue-list = <LCLK RCLK>;
+            continue-list = <LCLK RCLK SCRL_UP SCRL_DOWN>;
             ignore-modifiers;
         };
     };
