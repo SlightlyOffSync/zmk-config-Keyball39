@@ -105,13 +105,23 @@
         smart_mouse_hold: smart_mouse_hold {
             compatible = "zmk,behavior-hold-tap";
             label = "SMART_MOUSE_HOLD";
-            bindings = <&mo>, <&kp>;
+            bindings = <&smart_mouse>, <&kp>;
 
             #binding-cells = <2>;
             tapping-term-ms = <280>;
             flavor = "tap-preferred";
             quick-tap-ms = <185>;
             require-prior-idle-ms = <175>;
+        };
+        {
+          behaviors {
+            smart_mouse: smart_mouse {
+              compatible = "zmk,behavior-auto-layer";
+              #binding-cells = <1>;
+              continue-list = <LCLK RCLK>;
+              ignore-modifiers;
+            };
+          };
         };
     };
 
