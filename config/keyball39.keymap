@@ -113,16 +113,14 @@
             quick-tap-ms = <185>;
             require-prior-idle-ms = <175>;
         };
-        {
-          behaviors {
-            smart_mouse: smart_mouse {
-              compatible = "zmk,behavior-auto-layer";
-              #binding-cells = <1>;
-              continue-list = <LCLK RCLK>;
-              ignore-modifiers;
-            };
-          };
+
+        smart_mouse: smart_mouse {
+          compatible = "zmk,behavior-auto-layer";
+          #binding-cells = <1>;
+          continue-list = <LCLK RCLK>;
+          ignore-modifiers;
         };
+
     };
 
     macros {
