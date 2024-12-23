@@ -36,7 +36,7 @@ layers:
   - {t: '$$mdi:keyboard-esc$$', h: SNIPE}
   - {t: '$$mdi:keyboard-return$$', h: MOUSE}
   - {t: '$$mdi:keyboard-tab$$', h: SCROLL}
-  - {t: '$$mdi:keyboard-space$$', h: NUM}
+  - {t: '$$mdi:keyboard-space$$', h: '&num_word 3'}
   - {t: '$$mdi:backspace$$', h: SYM}
   - {t: \, s: '|'}
   NAV:
@@ -156,7 +156,7 @@ layers:
   - {t: '$$mdi:minus-circle-outline$$', type: none}
   - .
   - {t: '$$mdi:minus-circle-outline$$', type: none}
-  - {t: '$$mdi:minus-circle-outline$$', type: held}
+  - {t: '$$mdi:minus-circle-outline$$', type: none}
   - {t: '$$mdi:minus-circle-outline$$', type: none}
   - {t: '$$mdi:minus-circle-outline$$', type: none}
   FUN:
