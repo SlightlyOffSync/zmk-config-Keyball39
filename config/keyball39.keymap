@@ -1,4 +1,6 @@
-j#define DEFAULT 0
+j
+
+#define DEFAULT 0
 #define NUM     1
 #define SYM     2
 #define FUN     3
@@ -195,10 +197,10 @@ j#define DEFAULT 0
         mouse_layer {
             label = "MOUSE";
             bindings = <
-&trans     &trans  &trans  &trans  &trans                  &trans     &trans     &msc SCRL_UP(20)    &trans     &trans
-&trans     &trans  &trans  &trans  &trans                  &kp MINUS  &mkp LCLK  &msc SCRL_DOWN(20)  &mkp RCLK  &mkp MCLK
-&kp SPACE  &trans  &trans  &trans  &trans                  &kp EQUAL  &trans     &trans          &trans     &trans
-&mkp LCLK  &trans  &trans  &trans  &trans  &trans  &trans  &trans                                           &trans
+&trans  &trans  &trans  &trans  &trans                       &trans  &trans     &msc SCRL_UP    &trans     &trans
+&trans  &trans  &trans  &trans  &trans                       &trans  &mkp LCLK  &msc SCRL_DOWN  &mkp RCLK  &mkp MCLK
+&trans  &trans  &trans  &trans  &trans                       &trans  &trans     &trans          &trans     &trans
+&trans  &trans  &trans  &trans  &lt 2 ENTER  &trans  &trans  &trans                                        &trans
             >;
         };
 
