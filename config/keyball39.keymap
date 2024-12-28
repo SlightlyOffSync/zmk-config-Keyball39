@@ -108,8 +108,8 @@
             bindings = <&smart_mouse>, <&kp>;
 
             #binding-cells = <2>;
-            tapping-term-ms = <280>;
-            flavor = "tap-preferred";
+            tapping-term-ms = <200>;
+            flavor = "balanced";
             quick-tap-ms = <185>;
             require-prior-idle-ms = <175>;
         };
@@ -195,10 +195,10 @@
         mouse_layer {
             label = "MOUSE";
             bindings = <
-&trans     &trans  &trans  &trans  &trans                       &trans     &trans     &msc SCRL_UP    &trans     &trans
-&trans     &trans  &trans  &trans  &trans                       &kp MINUS  &mkp LCLK  &msc SCRL_DOWN  &mkp RCLK  &mkp MCLK
-&kp SPACE  &trans  &trans  &trans  &trans                       &kp EQUAL  &trans     &trans          &trans     &trans
-&mkp LCLK  &trans  &trans  &to 0   &lt 2 ENTER  &trans  &trans  &trans                                           &trans
+&trans     &trans  &trans  &trans  &trans                                     &trans     &trans     &msc SCRL_DOWN  &trans     &trans
+&trans     &trans  &trans  &trans  &trans                                     &kp MINUS  &mkp LCLK  &msc SCRL_UP    &mkp RCLK  &mkp MCLK
+&kp SPACE  &trans  &trans  &trans  &trans                                     &kp EQUAL  &trans     &trans          &trans     &trans
+&mkp LCLK  &trans  &trans  &to 0   &smart_mouse_hold 0 ENTER  &trans  &trans  &trans                                           &trans
             >;
         };
 
