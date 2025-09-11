@@ -170,7 +170,7 @@
             bindings = <&kp HASH>;
             key-positions = <2 3>;
             layers = <0>;
-            require-prior-idle-ms = <300>;
+            require-prior-idle-ms = <500>;
             timeout-ms = <200>;
         };
 
@@ -178,7 +178,7 @@
             bindings = <&kp AT_SIGN>;
             key-positions = <1 2>;
             layers = <0>;
-            require-prior-idle-ms = <300>;
+            require-prior-idle-ms = <500>;
             timeout-ms = <200>;
         };
     };
