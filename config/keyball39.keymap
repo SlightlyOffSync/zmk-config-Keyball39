@@ -170,16 +170,16 @@
             bindings = <&kp HASH>;
             key-positions = <2 3>;
             layers = <0>;
-            require-prior-idle-ms = <500>;
-            timeout-ms = <50>;
+            require-prior-idle-ms = <300>;
+            timeout-ms = <75>;
         };
 
         at-sign {
             bindings = <&kp AT_SIGN>;
             key-positions = <1 2>;
             layers = <0>;
-            require-prior-idle-ms = <500>;
-            timeout-ms = <50>;
+            require-prior-idle-ms = <300>;
+            timeout-ms = <75>;
         };
     };
 
